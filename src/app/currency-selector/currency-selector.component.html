@@ -1,0 +1,3 @@
+<select>
+    <option *ngFor="c of currencies" [ngValue]="c" onChange()="onSelectEvent(c)">{{c.code}}</option>
+</select>
